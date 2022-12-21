@@ -1,0 +1,28 @@
+.left {
+	display: flex;
+	flex-flow: column nowrap;
+
+	.logo {
+		margin-left: 20px;
+	}
+	ul {
+		list-style: none;
+		color: rgb(149, 149, 149);
+
+		li {
+			padding: 14px 20px 14px 34px;
+		}
+
+		li:nth-of-type(2) {
+			font-weight: bold;
+			color: black;
+
+			&::before {
+				content: "\00a0";
+				background-color: rgb(101, 101, 203);
+				padding: 14px 0px;
+				margin: 0px 58px 0px -66px;
+			}
+		}
+	}
+}
