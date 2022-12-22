@@ -4,24 +4,36 @@
 
 	.logo {
 		margin-left: 20px;
+		margin-bottom: 10px;
 	}
+
 	ul {
-		list-style: none;
 		color: rgb(149, 149, 149);
 
 		li {
-			padding: 14px 20px 14px 34px;
-		}
+			display: flex;
+			flex-flow: row nowrap;
+			align-items: flex-start;
+			margin: 14px 20px 14px -6px;
 
-		li:nth-of-type(2) {
-			font-weight: bold;
-			color: black;
+			img {
+				margin: -5px 16px 0 0;
+			}
 
-			&::before {
-				content: "\00a0";
-				background-color: rgb(101, 101, 203);
-				padding: 14px 0px;
-				margin: 0px 58px 0px -66px;
+			p {
+				white-space: nowrap;
+			}
+
+			&:nth-of-type(2), &:hover {
+				font-weight: bold;
+				color: black;
+
+				&::before {
+					content: "\00a0";
+					background-color: rgb(101, 101, 203);
+					padding: 14px 0px;
+					margin: -14px 20px 0px -26px;
+				}
 			}
 		}
 	}

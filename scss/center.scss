@@ -1,7 +1,22 @@
 .center {
 	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
 	width: 100%;
 	background-color: rgba(247, 249, 255, 1);
+
+	.header {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: flex-start;
+		width: 100%;
+
+	 * {
+		 display: flex;
+		 gap: 15px;
+	 }
+
+		.breadcrumbs {
+			flex-flow: row nowrap;
+		}
+	}
 }
