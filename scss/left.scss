@@ -1,6 +1,8 @@
 .left {
 	display: flex;
 	flex-flow: column nowrap;
+	flex-shrink: 0;
+	width: 300px;
 
 	.logo {
 		margin-left: 20px;

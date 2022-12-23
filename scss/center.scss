@@ -1,7 +1,8 @@
 .center {
 	display: flex;
-	width: 100%;
+	flex-grow: 1;
 	background-color: rgba(247, 249, 255, 1);
+	padding: 20px 20px 10px 40px;
 
 	.header {
 		display: flex;
