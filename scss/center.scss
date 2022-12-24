@@ -1,6 +1,8 @@
 .center {
 	display: flex;
+	flex-flow: column nowrap;
 	flex-grow: 1;
+	row-gap: 25px;
 	background-color: rgba(247, 249, 255, 1);
 	padding: 20px 20px 10px 40px;
 
@@ -9,15 +11,32 @@
 		flex-flow: row nowrap;
 		justify-content: space-between;
 		align-items: flex-start;
-		width: 100%;
 
 	 * {
 		 display: flex;
-		 gap: 15px;
+		 gap: 5px;
 	 }
 
 		.breadcrumbs {
 			flex-flow: row nowrap;
+		}
+
+		.login {
+
+			img:first-of-type {
+				margin-right: 10px;
+			}
+		}
+	}
+
+	button {
+		white-space: nowrap;
+		width: 200px;
+		font-size: small;
+
+		&::first-letter {
+			font-size: large;
+			font-weight: bold;
 		}
 	}
 }
