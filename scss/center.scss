@@ -32,7 +32,11 @@
 	button {
 		white-space: nowrap;
 		width: 200px;
+		height: 40px;
 		font-size: small;
+	}
+
+	& > button {
 
 		&::first-letter {
 			font-size: large;
