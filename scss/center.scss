@@ -1,6 +1,6 @@
 .center {
 	display: flex;
-	flex-flow: column nowrap;
+	flex-flow: column;
 	flex-grow: 1;
 	row-gap: 30px;
 	background-color: rgba(247, 249, 255, 1);
@@ -8,7 +8,7 @@
 
 	.header {
 		display: flex;
-		flex-flow: row nowrap;
+		flex-flow: row;
 		justify-content: space-between;
 		align-items: flex-start;
 
@@ -18,7 +18,7 @@
 	 }
 
 		.breadcrumbs {
-			flex-flow: row nowrap;
+			flex-flow: row;
 		}
 
 		.login {
