@@ -1,26 +1,51 @@
 .shops {
+	width: 90%;
 	display: flex;
 	flex-flow: column;
+	background: white;
+	border-radius: 6px;
+	padding: 5px 25px;
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
 
 	.row {
 		display: flex;
 		flex-flow: row;
+		align-items: center;
+		padding: 20px 0;
 
-		* {
-			flex-shrink: 1;
+		&:nth-of-type(2) {
+			border-bottom: 1px solid lightgray;
+		}
+
+		div {
+			white-space: nowrap;
 		}
 
 		div:nth-child(1) {
-			flex: 1;
+			width: 10%;
 		}
 		div:nth-child(2) {
-			flex: 2;
+			width: 20%;
 		}
 		div:nth-child(3) {
-			flex: 3;
+			width: 30%;
 		}
 		div:nth-child(4) {
-			flex: 4;
+			display: flex;
+			gap: 10px;
+			width: auto;
+			margin-left: auto;
+		}
+
+		&:first-of-type {
+			div {
+				font-weight: bold;
+				margin-left: 0;
+			}
 		}
 	}
 }
