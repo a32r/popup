@@ -32,19 +32,18 @@
 			width: 20%;
 		}
 		div:nth-child(3) {
-			width: 30%;
+			width: 35%;
 		}
 		div:nth-child(4) {
 			display: flex;
 			gap: 10px;
 			width: auto;
-			margin-left: auto;
+			// margin-left: auto;
 		}
 
 		&:first-of-type {
 			div {
 				font-weight: bold;
-				margin-left: 0;
 			}
 		}
 	}

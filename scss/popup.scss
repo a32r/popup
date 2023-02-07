@@ -1,0 +1,13 @@
+.popup {
+	width: 550px;
+	display: flex;
+	flex-flow: column;
+	background: white;
+	border-radius: 6px;
+	padding: 5px 25px;
+
+	.labels > div {
+		display: flex;
+		gap: 25px;
+	}
+}
