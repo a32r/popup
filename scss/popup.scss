@@ -6,8 +6,18 @@
 	border-radius: 6px;
 	padding: 5px 25px;
 
-	.labels > div {
+	.form {
 		display: flex;
-		gap: 25px;
+		flex-flow: column;
+
+		div {
+			display: flex;
+			justify-content: space-between;
+			gap: 25px;
+
+			div:nth-child(1) {
+				width: 50%;
+			}
+		}
 	}
 }
