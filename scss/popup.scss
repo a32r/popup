@@ -8,16 +8,13 @@
 
 	.form {
 		display: flex;
-		flex-flow: column;
+		justify-content: space-between;
 
 		div {
 			display: flex;
-			justify-content: space-between;
-			gap: 25px;
-
-			div:nth-child(1) {
-				width: 50%;
-			}
+			flex-flow: column;
+			gap: 15px;
+			white-space: nowrap;
 		}
 	}
 }
