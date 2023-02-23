@@ -2,3 +2,10 @@ body {
 	display: flex;
 	font-size: small;
 }
+
+.btn-secondary {
+	background: none;
+	color: gray;
+	border: 1px solid lightgray;
+	font-weight: bold;
+}
