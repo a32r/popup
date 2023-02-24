@@ -19,6 +19,16 @@
 
 			&:last-of-type {
 				width: 100%;
+				display: flex;
+				flex-flow: row wrap;
+				gap: 0;
+
+				span {
+					width: 30%;
+					display: unset;
+					background: rgb(101, 101, 203);
+					color: white;
+				}
 			}
 		}
 	}
