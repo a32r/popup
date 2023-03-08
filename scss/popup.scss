@@ -6,11 +6,19 @@
 	border-radius: 6px;
 	padding: 5px 25px;
 
+	.popupHead {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 20px 0;
+	}
+
 	.form {
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-between;
 		row-gap: 30px;
+		margin-bottom: 30px;
 
 		& > div {
 			display: flex;
@@ -20,13 +28,10 @@
 				width: 100%;
 			}
 
-			&:nth-of-type(4) {
+			&:nth-of-type(4), &:nth-of-type(5) {
 				flex-flow: row;
+				align-items: center;
 				gap: 15px;
-
-				img {
-					height: 80%;
-				}
 			}
 		}
 
@@ -41,6 +46,14 @@
 				background: rgb(101, 101, 203);
 				color: white;
 			}
+		}
+
+		img {
+			height: 80%;
+		}
+
+		p {
+			margin: 0;
 		}
 	}
 }

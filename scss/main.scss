@@ -3,9 +3,16 @@ body {
 	font-size: small;
 }
 
+.btn {
+	border-radius: 3px;
+}
+
 .btn-secondary {
-	background: none;
-	color: gray;
-	border: 1px solid lightgray;
-	font-weight: bold;
+	background: rgb(177, 177, 177);
+	border: 1px solid rgb(177, 177, 177);
+}
+
+.btn-success {
+	background: rgb(85, 201, 123);
+	border: 1px solid rgb(85, 201, 123);
 }
