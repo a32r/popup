@@ -4,7 +4,17 @@ body {
 }
 
 .btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 10px;
 	border-radius: 3px;
+
+	a {
+		color: white;
+		font-size: x-large;
+		text-decoration: none;
+	}
 }
 
 .btn-secondary {
