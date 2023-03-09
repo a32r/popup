@@ -4,13 +4,34 @@
 	flex-flow: column;
 	background: white;
 	border-radius: 6px;
-	padding: 5px 25px;
+	padding: 30px;
 
 	.popupHead {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin: 20px 0;
+
+		p, a {
+			transition: all .3s;
+		}
+
+		p {
+			margin: 0;
+			font-size: xx-large;
+
+			&:hover {
+				transform: rotate(90deg);
+			}
+		}
+
+		a {
+			color: gray;
+			text-decoration: none;
+
+			&:hover {
+				color: black;
+			}
+		}
 	}
 
 	.form {
@@ -18,7 +39,6 @@
 		flex-flow: row wrap;
 		justify-content: space-between;
 		row-gap: 30px;
-		margin-bottom: 30px;
 
 		& > div {
 			display: flex;
