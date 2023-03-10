@@ -6,6 +6,10 @@
 	border-radius: 6px;
 	padding: 30px;
 
+	position: absolute;
+	top: 180px;
+	box-shadow: 0 0 50px -25px black;
+
 	.popupHead {
 		display: flex;
 		justify-content: space-between;
