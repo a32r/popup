@@ -2,12 +2,12 @@ $('document').ready(function() {
 
 	$('.popupHead a').click(function(e) {
 		e.preventDefault();
-		$('.popup').css("display", "none");
+		$('.popup').hide();
 	});
 
-	$('.popupHead a').click(function(e) {
+	$('button:contains("+ Создать свой магазин")').click(function(e) {
 		e.preventDefault();
-		$('.popup').css("display", "none");
+		$('.popup').show();
 	});
 
 });
